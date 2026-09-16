@@ -327,6 +327,7 @@ export default function Home() {
       <main className="mx-auto max-w-5xl px-6 py-14">
         {/* Presentación histórica - sin oferta comercial */}
         <section id="historia-aviacion" className="scroll-mt-20 overflow-hidden rounded-3xl border border-[#C9A227]/40 bg-white p-6 shadow-md sm:p-8 dark:border-white/10 dark:bg-[#241010]">
+          <span id="promo-aerolinea" className="block h-0 scroll-mt-20" aria-hidden="true" />
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#8C1D1D] dark:text-red-300">
             Historia de la aviación · 1926 – 1943
           </p>
