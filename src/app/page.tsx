@@ -29,7 +29,7 @@ const maquinas = [
     motor: "1 motor de pistón",
     abordo: "1 piloto",
     descripcion:
-      "Rival directo del más veloz. De líneas angulosas y motor potente, ofrecía una subida rápida y un vuelo exigente que pedía manos atentas y decisión en cada giro.",
+      "Contemporáneo de los más veloces de la selección. De líneas angulosas y motor potente, se describía con subida rápida y vuelo exigente para su época.",
     imagen:
       "https://images.unsplash.com/photo-1474302770737-173ee21bab63?w=800&q=80&auto=format&fit=crop",
     alt: "Avión de hélice histórico en pista al amanecer",
@@ -299,8 +299,8 @@ export default function Home() {
       {/* Navegación */}
       <nav className="sticky top-0 z-10 border-b border-stone-200 bg-[#FAF6F1]/95 backdrop-blur dark:border-white/10 dark:bg-[#160808]/95">
         <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-center gap-x-7 gap-y-2 px-6 py-3 text-sm font-semibold text-[#8C1D1D] dark:text-red-300">
-          <a href="#promo-aerolinea" className="hover:underline">
-            Historia
+          <a href="#historia-aviacion" className="hover:underline">
+            Presentación
           </a>
           <a href="#ranking" className="hover:underline">
             Ranking
@@ -326,7 +326,7 @@ export default function Home() {
       {/* Contenido */}
       <main className="mx-auto max-w-5xl px-6 py-14">
         {/* Presentación histórica - sin oferta comercial */}
-        <section id="promo-aerolinea" className="scroll-mt-20 overflow-hidden rounded-3xl border border-[#C9A227]/40 bg-white p-6 shadow-md sm:p-8 dark:border-white/10 dark:bg-[#241010]">
+        <section id="historia-aviacion" className="scroll-mt-20 overflow-hidden rounded-3xl border border-[#C9A227]/40 bg-white p-6 shadow-md sm:p-8 dark:border-white/10 dark:bg-[#241010]">
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#8C1D1D] dark:text-red-300">
             Historia de la aviación · 1926 – 1943
           </p>
@@ -493,7 +493,7 @@ export default function Home() {
               Comparativa rápida
             </h2>
             <p className="mt-2 leading-relaxed text-stone-600 dark:text-stone-300">
-              Los 10 modelos frente a frente, del más veloz al más sereno:
+              Los 10 modelos frente a frente, ordenados por velocidad aproximada:
             </p>
           </div>
           <div className="mt-6 overflow-x-auto rounded-2xl border border-stone-200 bg-white shadow-sm dark:border-white/10 dark:bg-[#241010]">
