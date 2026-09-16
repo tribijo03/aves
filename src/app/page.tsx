@@ -300,7 +300,7 @@ export default function Home() {
       <nav className="sticky top-0 z-10 border-b border-stone-200 bg-[#FAF6F1]/95 backdrop-blur dark:border-white/10 dark:bg-[#160808]/95">
         <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-center gap-x-7 gap-y-2 px-6 py-3 text-sm font-semibold text-[#8C1D1D] dark:text-red-300">
           <a href="#promo-aerolinea" className="hover:underline">
-            Promoción
+            Historia
           </a>
           <a href="#ranking" className="hover:underline">
             Ranking
@@ -325,47 +325,26 @@ export default function Home() {
 
       {/* Contenido */}
       <main className="mx-auto max-w-5xl px-6 py-14">
-        {/* Promoción aerolínea - bloque comercial separado para Google Ads */}
+        {/* Presentación histórica - sin oferta comercial */}
         <section id="promo-aerolinea" className="scroll-mt-20 overflow-hidden rounded-3xl border border-[#C9A227]/40 bg-white p-6 shadow-md sm:p-8 dark:border-white/10 dark:bg-[#241010]">
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#8C1D1D] dark:text-red-300">
-            Anunciante: [Nombre Aerolínea] · Promoción
+            Historia de la aviación · 1926 – 1943
           </p>
           <h2 className="mt-2 text-2xl font-bold tracking-tight text-stone-900 dark:text-stone-100">
-            Vuela hoy con espíritu de leyenda: oferta en vuelos y reservas
+            La historia de los aviones que nos enseñaron a volar
           </h2>
           <p className="mt-2 leading-relaxed text-stone-600 dark:text-stone-300">
-            Del ranking histórico a tu próximo destino. Consulta vuelos,
-            destinos y reservas con atención al cliente, puntualidad operativa
-            y vuelo tranquilo. Sin afirmaciones garantizadas: la puntualidad
-            depende de condiciones operativas y meteorológicas.
+            Del ranking histórico a las rutas que se volvieron leyenda. Contenido divulgativo sobre
+            vuelos, rutas, puntualidad de la época y vuelo sereno. Sin precios, sin ofertas y sin reservas.
           </p>
-          <dl className="mt-4 grid gap-3 text-sm sm:grid-cols-3">
-            <div className="rounded-2xl bg-[#FAF6F1] p-4 ring-1 ring-stone-200 dark:bg-white/5 dark:ring-white/10">
-              <dt className="font-semibold">Oferta</dt>
-              <dd className="mt-1">[Ej: 15% en rutas seleccionadas]</dd>
-            </div>
-            <div className="rounded-2xl bg-[#FAF6F1] p-4 ring-1 ring-stone-200 dark:bg-white/5 dark:ring-white/10">
-              <dt className="font-semibold">Vigencia y rutas</dt>
-              <dd className="mt-1">[Ej: del 1 al 30 nov, salidas desde Madrid]</dd>
-            </div>
-            <div className="rounded-2xl bg-[#FAF6F1] p-4 ring-1 ring-stone-200 dark:bg-white/5 dark:ring-white/10">
-              <dt className="font-semibold">Reserva</dt>
-              <dd className="mt-1">En sitio oficial · Impuestos incluidos · Plazas limitadas</dd>
-            </div>
-          </dl>
           <div className="mt-5 flex flex-wrap gap-3">
-            <a href="#transparencia" className="rounded-full bg-[#8C1D1D] px-6 py-2.5 text-sm font-bold text-white hover:bg-[#6d1515]">
-              Ver condiciones de la promoción
+            <a href="#ranking" className="rounded-full bg-[#8C1D1D] px-6 py-2.5 text-sm font-bold text-white hover:bg-[#6d1515]">
+              Explorar el ranking
             </a>
-            <a href="#ranking" className="rounded-full px-6 py-2.5 text-sm font-semibold text-[#8C1D1D] ring-1 ring-[#8C1D1D]/30 hover:bg-red-50 dark:text-red-300">
-              Explorar la historia primero
+            <a href="#rutas" className="rounded-full px-6 py-2.5 text-sm font-semibold text-[#8C1D1D] ring-1 ring-[#8C1D1D]/30 hover:bg-red-50 dark:text-red-300">
+              Ver las rutas legendarias
             </a>
           </div>
-          <p className="mt-3 text-xs leading-relaxed text-stone-500 dark:text-stone-400">
-            Condiciones: reemplaza este texto con precio final con impuestos, cargos por equipaje, cambios y
-            cancelación, y enlace a términos de la aerolínea antes de activar la campaña. No uses cuenta atrás
-            falsa ni stock falso. El anuncio de Google debe llevar a este mismo dominio.
-          </p>
         </section>
 
         <section id="ranking" className="mt-14 scroll-mt-20">
@@ -647,12 +626,8 @@ export default function Home() {
           <ul className="mt-3 list-disc space-y-2 pl-5">
             <li>
               <strong>Idea que se mantiene:</strong> época dorada del vuelo, ranking de velocidad, historia
-              1926-1943, rutas que se volvieron leyenda, comparativa y preguntas. Keywords: volar, vuelos,
-              rutas, puntualidad, sereno, calma, destinos, reserva.
-            </li>
-            <li>
-              <strong>Anunciante promo:</strong> [Nombre Aerolínea] · Ver sección #promo-aerolinea con oferta,
-              vigencia, precio con impuestos y condiciones antes de activar Google Ads.
+              1926-1943, rutas que se volvieron leyenda, comparativa y preguntas. Solo historia de los aviones,
+              sin precios ni promociones. Keywords: volar, historia aviación, rutas, puntualidad de época, vuelo sereno.
             </li>
             <li>
               <strong>Datos históricos:</strong> velocidades y fechas aproximadas con fines divulgativos. Pueden variar según la fuente.
@@ -686,7 +661,7 @@ export default function Home() {
       <footer className="border-t border-stone-200 bg-white py-8 text-center text-xs text-stone-500 dark:border-white/10 dark:bg-[#160808] dark:text-stone-400">
         <div className="mx-auto max-w-5xl px-6">
           <p className="font-semibold text-stone-700 dark:text-stone-200">
-            “Volar sin prisa, llegar con historia” · Época dorada del vuelo · Promoción: [Nombre Aerolínea]
+            “Volar sin prisa, llegar con historia” · Época dorada del vuelo · Solo historia
           </p>
           <p className="mt-2 leading-relaxed">
             © 2026 Proyecto Aves · Textos originales. Datos de velocidad aproximados con fines ilustrativos.

@@ -11,8 +11,8 @@ export default function Terminos() {
         <li>Contenido educativo y aproximado. Las velocidades y fechas pueden variar según la fuente.</li>
         <li>Los aviones de uso militar histórico se presentan solo con fines divulgativos, sin promoción de armas.</li>
         <li>Textos originales © 2026 Proyecto Aves. Fotos Unsplash con licencia libre; 1 foto “DH 82A Tiger Moth - N81DH” de Towpilot vía Wikimedia Commons bajo CC BY-SA 3.0 y GFDL, con atribución y enlace a licencia.</li>
-        <li>Sección #promo-aerolinea: contenido comercial del anunciante indicado. Precios, vigencia y condiciones deben leerse en la oferta antes de reservar.</li>
-        <li>Uso permitido: compartir con cita y sin fines engañosos. Marcas de aerolíneas citadas pertenecen a sus titulares y solo se usan si existe autorización o relación comercial.</li>
+        <li>Sección #promo-aerolinea: solo presenta la historia de los aviones. Sin precios, sin ofertas y sin reservas.</li>
+        <li>Uso permitido: compartir con cita y sin fines engañosos.</li>
       </ul>
       <p className="mt-4">
         <a href="/" className="underline">Volver al inicio</a>
