@@ -335,8 +335,21 @@ export default function Home() {
             La historia de los aviones que nos enseñaron a volar
           </h2>
           <p className="mt-2 leading-relaxed text-stone-600 dark:text-stone-300">
-            Del ranking histórico a las rutas que se volvieron leyenda. Contenido divulgativo sobre
-            vuelos, rutas, puntualidad de la época y vuelo sereno. Sin precios, sin ofertas y sin reservas.
+            Del ranking histórico a las rutas que se volvieron leyenda. Aerolíneas y vuelos en contexto
+            histórico: cómo esas rutas inspiraron la evolución de aerolíneas, vuelos, destinos y puntualidad
+            operativa. Contenido informativo sobre vuelos, rutas, puntualidad de la época y vuelo sereno.
+            Sin precios, sin ofertas y sin reservas.
+          </p>
+          <p className="mt-3 leading-relaxed text-stone-600 dark:text-stone-300">
+            Diferencia horaria entre países: al volar entre destinos hay que ajustar el reloj según el huso
+            horario, restando o sumando horas respecto al origen. No es un descuento de precio, es un ajuste
+            horario informativo para entender llegadas y salidas en rutas largas.
+          </p>
+          <p className="mt-3 leading-relaxed text-stone-600 dark:text-stone-300">
+            Ejemplo histórico, no vigente: en referencias de la época se describe que las nuevas rutas y los
+            aviones de mayor capacidad permitieron tarifas más bajas que las iniciales para ciertos destinos.
+            Fue un descuento famoso en su momento por abrir el vuelo a más pasajeros. Dato orientativo del
+            pasado, ya finalizado, sin oferta actual ni reserva.
           </p>
           <div className="mt-5 flex flex-wrap gap-3">
             <a href="#ranking" className="rounded-full bg-[#8C1D1D] px-6 py-2.5 text-sm font-bold text-white hover:bg-[#6d1515]">
@@ -627,8 +640,9 @@ export default function Home() {
           <ul className="mt-3 list-disc space-y-2 pl-5">
             <li>
               <strong>Idea que se mantiene:</strong> época dorada del vuelo, ranking de velocidad, historia
-              1926-1943, rutas que se volvieron leyenda, comparativa y preguntas. Solo historia de los aviones,
-              sin precios ni promociones. Keywords: volar, historia aviación, rutas, puntualidad de época, vuelo sereno.
+              1926-1943, rutas que se volvieron leyenda, comparativa y preguntas. Solo historia de los aviones y
+              contexto informativo de aerolíneas, sin precios ni promociones. Keywords: volar, historia aviación,
+              aerolíneas, vuelos, rutas, destinos, puntualidad de época, vuelo sereno.
             </li>
             <li>
               <strong>Datos históricos:</strong> velocidades y fechas aproximadas con fines divulgativos. Pueden variar según la fuente.
