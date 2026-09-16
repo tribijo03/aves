@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+:root {
+  --background: #faf6f1;
+  --foreground: #292524;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Inter, Arial, Helvetica, sans-serif;
+}
+
+/* scrollbar cálido */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f5ebe0;
+}
+::-webkit-scrollbar-thumb {
+  background: #8c1d1d;
+  border-radius: 8px;
+}
+
+/* aparición suave al cargar (sin JavaScript) */
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.card-in {
+  opacity: 0;
+  animation: rise 0.7s ease forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card-in {
+    opacity: 1;
+    animation: none;
+  }
+}
