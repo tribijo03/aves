@@ -12,7 +12,7 @@ export default function SobreNosotros() {
         (1926-1943). Publicamos textos originales con fines educativos.
       </p>
       <ul className="mt-4 list-disc space-y-2 pl-5">
-        <li>Editor responsable: Proyecto Aves</li>
+        <li>Editor responsable: Volar Sin Prisa</li>
         <li>Fuentes: referencias históricas generales y archivos fotográficos ilustrativos.</li>
       </ul>
       <p className="mt-4">

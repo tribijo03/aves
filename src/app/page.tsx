@@ -664,7 +664,7 @@ export default function Home() {
               . Uso permitido incluso comercial con atribución. No implica respaldo del autor.
             </li>
             <li>
-              <strong>Responsable:</strong> Proyecto Aves ·{" "}
+              <strong>Responsable:</strong> Volar Sin Prisa ·{" "}
               <a href="/sobre-nosotros" className="text-[#8C1D1D] underline dark:text-red-300">Sobre nosotros</a>,{" "}
               <a href="/privacidad" className="text-[#8C1D1D] underline dark:text-red-300">Privacidad</a>,{" "}
               <a href="/terminos" className="text-[#8C1D1D] underline dark:text-red-300">Términos</a>.
@@ -679,12 +679,12 @@ export default function Home() {
             “Volar sin prisa, llegar con historia” · Época dorada del vuelo · Solo historia
           </p>
           <p className="mt-2 leading-relaxed">
-            © 2026 Proyecto Aves · Textos originales. Datos de velocidad aproximados con fines ilustrativos.
+            © 2026 Volar Sin Prisa · Textos originales. Datos de velocidad aproximados con fines ilustrativos.
             Aviones de uso militar histórico solo con fines educativos. Fotos: Unsplash (uso libre) + 1 foto
             CC BY-SA 3.0 Towpilot vía Wikimedia Commons.
           </p>
           <p className="mt-3">
-            Editor responsable: Proyecto Aves ·{" "}
+            Editor responsable: Volar Sin Prisa ·{" "}
             <a href="/sobre-nosotros" className="underline hover:text-stone-700">Sobre nosotros</a> ·{" "}
             <a href="/privacidad" className="underline hover:text-stone-700">Privacidad</a> ·{" "}
             <a href="/terminos" className="underline hover:text-stone-700">Términos</a>
