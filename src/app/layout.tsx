@@ -50,7 +50,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           strategy="afterInteractive"
         />
         <Script id="google-tag" strategy="afterInteractive">
-          {`window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-18454270235');`}
+          {`window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-18454270235'); gtag('event', 'conversion', {'send_to': 'AW-18454270235/nXumClfwPocEJui199E'});`}
         </Script>
         {children}
       </body>
